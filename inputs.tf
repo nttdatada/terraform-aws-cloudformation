@@ -4,7 +4,7 @@
 # TERRAFORM MODULE AWS CLOUDFORMATION
 
 
-variable "backend" {
+variable "template" {
 
     type = map(object({
         stack_name = string
